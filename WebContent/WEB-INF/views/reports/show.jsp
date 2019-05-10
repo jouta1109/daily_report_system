@@ -24,6 +24,18 @@
                             </td>
                         </tr>
                         <tr>
+                            <th>出勤</th>
+                            <td>
+                                <pre><c:out value="${report.work}" /></pre>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>退勤</th>
+                            <td>
+                                <pre><c:out value="${report.workout}" /></pre>
+                            </td>
+                        </tr>                              
+                        <tr>
                             <th>登録日時</th>
                             <td>
                                 <fmt:formatDate value="${report.created_at}" pattern="yyyy-MM-dd HH:mm:ss" />
