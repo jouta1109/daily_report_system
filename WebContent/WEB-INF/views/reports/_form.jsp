@@ -26,12 +26,10 @@
 <textarea name="content" rows="10" cols="50">${report.content}</textarea>
 <br /><br />
 
-<label for="work">出勤</label><br />
-<input type="text" name="work" value="${report.work}" />
+<label>出勤：<input type="time" name="work"></label>
 <br /><br />
 
-<label for="workout">退勤</label><br />
-<input type="text" name="workout" value="${report.workout}" />
+<label>退勤：<input type="time" name="workout"></label>
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
