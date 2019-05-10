@@ -24,13 +24,13 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>出勤</th>
+                            <th>出勤時間</th>
                             <td>
                                 <pre><c:out value="${report.work}" /></pre>
                             </td>
                         </tr>
                         <tr>
-                            <th>退勤</th>
+                            <th>退勤時間</th>
                             <td>
                                 <pre><c:out value="${report.workout}" /></pre>
                             </td>
