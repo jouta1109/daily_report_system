@@ -18,6 +18,16 @@ public class ReportValidator {
         if(!content_error.equals("")) {
             errors.add(content_error);
         }
+        
+        String work_error = _validateTitle(r.getTitle());
+        if(!work_error.equals("")) {
+            errors.add(work_error);
+        }       
+        
+        String workout_error = _validateTitle(r.getTitle());
+        if(!workout_error.equals("")) {
+            errors.add(workout_error);
+        }       
 
         return errors;
     }

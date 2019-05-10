@@ -26,5 +26,13 @@
 <textarea name="content" rows="10" cols="50">${report.content}</textarea>
 <br /><br />
 
+<label for="work">出勤</label><br />
+<input type="text" name="work" value="${report.work}" />
+<br /><br />
+
+<label for="workout">退勤</label><br />
+<input type="text" name="workout" value="${report.workout}" />
+<br /><br />
+
 <input type="hidden" name="_token" value="${_token}" />
 <button type="submit">投稿</button>

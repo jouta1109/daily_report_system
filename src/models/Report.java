@@ -54,6 +54,13 @@ public class Report {
     @Lob
     @Column(name = "content", nullable = false)
     private String content;
+    
+    @Column(name = "work", nullable = false)
+    private String work;
+    
+    @Column(name = "workout", nullable = false)
+    private String workout;
+   
 
     @Column(name = "created_at", nullable = false)
     private Timestamp created_at;
@@ -100,6 +107,22 @@ public class Report {
     public void setContent(String content) {
         this.content = content;
     }
+    
+    public String getWork() {
+        return work;
+    }
+
+    public void setWork(String work) {
+        this.work = work;
+    }    
+    
+    public String getWorkout() {
+        return workout;
+    }
+
+    public void setWorkout(String workout) {
+        this.workout = workout;
+    }    
 
     public Timestamp getCreated_at() {
         return created_at;
